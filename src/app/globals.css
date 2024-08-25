@@ -1,9 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.homeHero {
+  background-image: url("../../public/assets/image/heroSection/Hero Section1.png");
+  background-size: cover;
+  background-position: center;
+}
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url('../../public/assets/fonts/Satoshi-Variable.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Lexend-Regular";
+  src: url('../../public/assets/fonts/Lexend-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "NunitoSans";
+  src: url('../../public/assets/fonts/NunitoSans-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url('../../public/assets/fonts/Poppins-Regular.ttf') format("truetype");
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+::-webkit-scrollbar {
+  width: 5.5px;
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #005B2F;
+  border-radius: 12px;
+}
+::-moz-scrollbar-thumb {
+  background-color: #005B2F;
+  border-radius: 12px;
 }
