@@ -11,7 +11,7 @@ export default function page() {
         pfp: "/assets/image/team/SweetyShah.jpg",
         designation: "FOUNDER & CEO",
        
-        message: "Sweety Shah, the visionary Founder and CEO of Huddle Investing, brings over a decade of experience in trading equities, forex, indices, and commodities. Her extensive expertise in price analysis distinguishes her as a leading consultant, offering unparalleled market insights and steering Huddle Investing{`'`}s strategic direction. Under her leadership, Huddle Investing is redefining the investment landscape, empowering both investors and financial experts to achieve success."
+        message: "Sweety Shah, the visionary Founder and CEO of Huddle Investing, brings over a decade of experience in trading equities, forex, indices, and commodities. Her extensive expertise in price analysis distinguishes her as a leading consultant, offering unparalleled market insights and steering Huddle Investing strategic direction. Under her leadership, Huddle Investing is redefining the investment landscape, empowering both investors and financial experts to achieve success."
     },
     {
         name: "ARCHANA AKUL",
@@ -26,7 +26,7 @@ export default function page() {
            pfp: "/assets/image/team/Megha.jpg",
         designation: "CO-FOUNDER & HEAD OF OPERATIONS",
        
-        message: "Megha Kharbanda, Co-Founder and Head of Operations at Huddle Investing, plays a pivotal role in driving the company{`'`}s success. With a wealth of experience in operational management and a keen eye for efficiency, Megha oversees the day-to-day operations, ensuring that the platform delivers a seamless experience for all users. Her strategic vision and dedication to operational excellence are integral to Huddle Investing{`'`}s growth and innovation."
+        message: "Megha Kharbanda, Co-Founder and Head of Operations at Huddle Investing, plays a pivotal role in driving the companys success. With a wealth of experience in operational management and a keen eye for efficiency, Megha oversees the day-to-day operations, ensuring that the platform delivers a seamless experience for all users. Her strategic vision and dedication to operational excellence are integral to Huddle Investing growth and innovation."
     },
    
 ];
