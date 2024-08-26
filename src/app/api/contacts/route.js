@@ -1,46 +1,35 @@
-const axios = require('axios');
-import {NextResponse} from 'next/server';
-export async function GET() {
-    try {
-      // Extract API key from request headers (optional, if needed)
-        const apiKey = process.env.HUBSPOT_ACCESS_TOKEN ;
-        //console.log(apiKey)
-        // Construct the API request URL
-      const apiUrl = `https://api.hubapi.com/crm/v3/objects/contacts`;
-      // Make the request using axios
-      const response = await axios.get(apiUrl, {
-        headers: {
-          Authorization: `Bearer ${apiKey}`, // Fallback to your stored API key if not provided in headers
-        },
-      });
-      // Handle successful response
-      return NextResponse.json(response.data);
-    } catch (error) {
-      console.error(error);
-      return NextResponse.json({ error: 'Failed to fetch data' });
-    }
-  }
-  export async function POST(req) {
-    try {
-      // Extract API key from request headers (optional, if needed)
-        //const apiKey = process.env.HUBSPOT_ACCESS_KEY ;
-        const apiKey = 'pat-na1-a02714fa-71e6-40cd-ae04-b50effd278d3' ;
-        const apiUrl = `https://api.hubapi.com/crm/v3/objects/companies`;
-        // const apiUrl = `https://api.hubapi.com/crm/v3/objects/contacts`;
-        
-        const data = await req.json();
-        console.log("data : ",data)
-        const response = await axios.post(apiUrl, data, {
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': `Bearer ${apiKey}`
-            }
-          });
-     
-        console.log("response : ",response.data)
-        return NextResponse.json({ success: 'Data sent successfully' });
-    } catch (error) {
-      //console.error(error);
-      return NextResponse.json({ error: 'Incorrect Information' });
-    }
-  }
+// const axios = require('axios');
+// import { NextResponse } from 'next/server';
+// export async function GET() {
+//   try {
+//     const apiKey = process.env.HUBSPOT_ACCESS_TOKEN;
+//     const apiUrl = `https://api.hubapi.com/crm/v3/objects/contacts`;
+//     const response = await axios.get(apiUrl, {
+//       headers: {
+//         Authorization: `Bearer ${apiKey}`,
+//       },
+//     });
+//     return NextResponse.json(response.data);
+//   } catch (error) {
+//     console.error(error);
+//     return NextResponse.json({ error: 'Failed to fetch data' });
+//   }
+// }
+// export async function POST(req) {
+//   try {
+//     const apiKey = 'pat-na1-a02714fa-71e6-40cd-ae04-b50effd278d3';
+//     const apiUrl = `https://api.hubapi.com/crm/v3/objects/companies`;
+//     const data = await req.json();
+//     console.log("data : ", data)
+//     const response = await axios.post(apiUrl, data, {
+//       headers: {
+//         'Content-Type': 'application/json',
+//         'Authorization': `Bearer ${apiKey}`
+//       }
+//     });
+//     console.log("response : ", response.data)
+//     return NextResponse.json({ success: 'Data sent successfully' });
+//   } catch (error) {
+//     return NextResponse.json({ error: 'Incorrect Information' });
+//   }
+// }
