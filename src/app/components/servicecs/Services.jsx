@@ -2,13 +2,13 @@ import React from 'react'
 export default function Services() {
     return (
         <>
-            <div className='my-10 md:p-0 p-5  '>
-                <h1 className='md:text-4xl text-3xl font-extrabold text-Green500 font-Poppins-Regular text-center '>Services</h1>
+            <div className='my-10 md:p-0  '>
+                <h1 className='md:text-4xl mb-0 text-3xl font-extrabold text-Green500 font-Poppins-Regular text-center '>Services</h1>
                 <div className="grid md:grid-cols-2 md:text-justify   grid-cols-1  gap-5 md:p-10 ">
-                    <div className='mt-5 '>
+                    <div className='mb-5 md:p-0 p-5'>
                         <div className='my-3'>
                             <spam className='font-semibold font-Poppins-Regular text-Green475'>
-                                Automated Subscription Management:
+                                Automated Subscription:
                             </spam>
                             <spam className='font-Lexend-Regular  ml-2 text-justify text-Green475'>
                                 Optimize your financial expertise with our automated subscription management system, saving time and reducing errors for more efficient monetization.

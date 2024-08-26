@@ -17,7 +17,7 @@ export default function Plans() {
                     </div>
                     <div className='bg-[#F3FFF3] md:p-10 p-5  md:w-[83%] md:justify-self-start flex-col  gap-2 rounded'>
                         <h1 className='font-semibold text-2xl   text-Green500 md:text-3xl'>
-                            Prenium Plan
+                        Premium Plan
                         </h1>
                         <p className='text-Green450 font-semibold text-xl'>$35/mo</p>
                         <p className='text-Green450 mt-2 mb-5'>Monetization and Comprehensive for both Experts and Investors </p>

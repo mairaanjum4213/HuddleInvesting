@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="xl:p-10 p-5 ">
           <div className="mx-auto flex justify-between lg:flex-row flex-col">
             <div className=" md:w-fit w-full  ">
-              <div className='flex flex-row gap-2 items-center font-extrabold  font-Poppins-Regular text-Green475 text-3xl  md:text-4xl '>
+              <div className='md:left-0 relative -left-2 flex flex-row gap-2 items-center font-extrabold  font-Poppins-Regular text-Green475 text-3xl  md:text-4xl '>
                 <Image
                   className='w-[55px] h-[50px] '
                   src={FooterLogo}
