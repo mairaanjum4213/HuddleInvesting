@@ -10,10 +10,10 @@ export default function
                         <div className="max-w-md">
                             <div className="text-5xl font-dark font-bold">404</div>
                             <p className="text-2xl md:text-3xl font-light leading-normal my-2">
-                                Sorry we couldn't find this page.{" "}
+                                Sorry we couldn{`'`}t find this page.{" "}
                             </p>
                             <p className="mb-6">
-                                But don't worry, just hit go back and you're on track
+                                But don{`'`}t worry, just hit go back and you{`'`}re on track
                             </p>
                             <button
                                 onClick={() => window.history.back()}
