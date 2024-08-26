@@ -32,7 +32,7 @@ export default function Navbar() {
   ]
   return (
     <>
-      <div className='bg-Green100 md:px-10 py-2 flex flex-row justify-center gap-5 items-center px-5 '>
+      <div className=' md:flex hidden bg-Green100 md:px-10 py-2  flex-row justify-center gap-5 items-center px-5 '>
         {Links.map((linkItem, index) => (
           <div
             key={index}

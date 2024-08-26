@@ -23,7 +23,7 @@ export default function page() {
     },
     {
         name: " MEGHA KHARBANDA",
-           pfp: "/assets/image/team/Megha.jpg",
+       pfp: "/assets/image/team/Megha.jpg",
         designation: "CO-FOUNDER & HEAD OF OPERATIONS",
        
         message: "Megha Kharbanda, Co-Founder and Head of Operations at Huddle Investing, plays a pivotal role in driving the companys success. With a wealth of experience in operational management and a keen eye for efficiency, Megha oversees the day-to-day operations, ensuring that the platform delivers a seamless experience for all users. Her strategic vision and dedication to operational excellence are integral to Huddle Investing growth and innovation."
