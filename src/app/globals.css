@@ -6,6 +6,12 @@
   background-size: cover;
   background-position: center;
 }
+
+.homeHero2 {
+  background-image: url("../../public/assets/image/heroSection/Hero Section2.png");
+  background-size: cover;
+  background-position: center;
+}
 @font-face {
   font-family: "Satoshi-Black";
   src: url('../../public/assets/fonts/Satoshi-Variable.ttf') format("truetype");

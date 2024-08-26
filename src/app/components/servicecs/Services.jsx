@@ -59,7 +59,7 @@ export default function Services() {
                         <h1 className='md:text-4xl text-3xl font-extrabold text-Green500 font-Poppins-Regular mb-5'>SWOT</h1>
                         {/* S SWOT */}
                         <div className="grid md:grid-cols-2   grid-cols-1 gap-5 ">
-                        <div className=' bg-white rounded-md w-full md:h-[10rem] p-4'>
+                            <div className=' bg-white rounded-md w-full md:h-[10rem] p-4'>
                                 <h1 className='font-semibold mb-2 text-Green475 font-Lexend-Regular mt-2'>Strengths
                                 </h1>
                                 <div className='text-Green475 font-Lexend-Regular  text-sm'>

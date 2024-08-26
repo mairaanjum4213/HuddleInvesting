@@ -1,12 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
 export default function HeroSection() {
   return (
     <>
-
-
       <section
         className="relative homeHero font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
         <div className="max-w-3xl mx-auto "

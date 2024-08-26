@@ -7,7 +7,7 @@ import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 export default function Page() {
-  const[loading,setLoading]=useState(false)
+  const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -22,44 +22,43 @@ export default function Page() {
       [name]: type === 'file' ? files[0] : value,
     }));
   };
-// form submission down+
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      try{
-        setLoading(true)
-        const contactInfo = {
-            properties: {
-               user_name:formData.name,
-               user_email: formData.email ,
-                message: formData.message,  
-                subject: formData.subject,  
-            }
-          };
-        console.log(contactInfo);
-        axios.post('/api/contacts', contactInfo)
+  // form submission down+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      setLoading(true)
+      const contactInfo = {
+        properties: {
+          user_name: formData.name,
+          user_email: formData.email,
+          message: formData.message,
+          subject: formData.subject,
+        }
+      };
+      console.log(contactInfo);
+      axios.post('/api/contacts', contactInfo)
         .then(response => {
-            setLoading(false)
-            setFormData({
-              ...formData,
-              name: '',
-              email: '',
-              subject: '',
-              message: '',
-              file: null,
-            });
-            console.log(response.data);
-            if (response.data.success){
-              toast.success('Response Sent Successfully');
-            }
-            else
-            {
-              console.log('!success')
-              toast.error('Failed to send response');
-            }
-        }); 
+          setLoading(false)
+          setFormData({
+            ...formData,
+            name: '',
+            email: '',
+            subject: '',
+            message: '',
+            file: null,
+          });
+          console.log(response.data);
+          if (response.data.success) {
+            toast.success('Response Sent Successfully');
+          }
+          else {
+            console.log('!success')
+            toast.error('Failed to send response');
+          }
+        });
     }
-    catch(error){
-        console.error('Error:', error);
+    catch (error) {
+      console.error('Error:', error);
     }
   }
   //   form submisson up
@@ -70,6 +69,7 @@ export default function Page() {
   };
   return (
     <>
+     <Toaster />
       <div className='grid md:grid-cols-2 grid-cols-1 my-10 md:p-10 p-5'>
         <section>
           <div className='flex flex-col gap-4 '>
@@ -111,7 +111,7 @@ export default function Page() {
           </div>
         </section>
         <section>
-          <h1 className='md:text-4xl text-xl font-extrabold text-Green475 font-Poppins-Regular'>Contact Us</h1>
+          <h1 className='md:text-4xl text-xl md:mt-0 mt-5 font-extrabold text-Green475 font-Poppins-Regular'>Contact Us</h1>
           <p className='text-Green300 font-Lexend-Regular mt-1'>Get in Touch </p>
           <form onSubmit={handleSubmit}>
             <input
@@ -159,9 +159,9 @@ export default function Page() {
               type='submit'
               className="mt-5 relative h-[3.2rem] w-40 overflow-hidden border border-Green300 bg-Green300 text-white transition-all before:absolute before:right-0 before:top-0 before:h-[3.1rem] before:w-6 before:translate-x-[3.5rem] before:rotate-6 before:bg-white before:opacity-10 before:duration-700 font-Poppins-Regular hover:before:-translate-x-40">
               {loading ? (<>
-              Sending
+                Sending
               </>) : (<>
-              Send
+                Send
               </>)}
             </button>
           </form>
@@ -170,7 +170,7 @@ export default function Page() {
             <p className='text-center text-neutral-500 my-5 font-Satoshi-Black'>OR</p>
             <hr className='w-[50%]' />
           </div>
-          <h1 className='md:text-4xl text-xl font-extrabold text-Green475 font-Poppins-Regular'>WhatsApp</h1>
+          <h1 className='md:text-2xl text-xl font-extrabold text-Green475 font-Poppins-Regular'>WhatsApp</h1>
           <p className='text-Green300 font-Lexend-Regular'>Join us on WhatsApp </p>
           <button
             className="mt-5 relative h-[3.2rem] w-40 overflow-hidden border border-Green300 bg-Green300 text-white transition-all before:absolute before:right-0 before:top-0 before:h-[3.2rem] before:w-6 before:translate-x-[3.2rem] before:rotate-6 before:bg-white before:opacity-10 before:duration-700 font-Poppins-Regular hover:before:-translate-x-40"
