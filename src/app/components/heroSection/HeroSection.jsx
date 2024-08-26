@@ -10,10 +10,12 @@ className="relative homeHero font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 t
       <div className="max-w-3xl mx-auto "
      >
         <div className="flex items-center justify-center mb-6">
-          <img
+          <Image
             src="/assets/image/FooterLogo.png" 
             alt="Logo"
             className="w-12 h-12"
+            width={500}
+            height={400}
           />
           <h1 className="text-3xl sm:text-4xl font-extrabold text-Green475 ml-3">
             Huddle Investing
