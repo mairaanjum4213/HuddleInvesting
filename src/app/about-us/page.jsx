@@ -11,7 +11,7 @@ export default function page() {
         pfp: "/assets/image/team/SweetyShah.jpg",
         designation: "FOUNDER & CEO",
        
-        message: "Sweety Shah, the visionary Founder and CEO of Huddle Investing, brings over a decade of experience in trading equities, forex, indices, and commodities. Her extensive expertise in price analysis distinguishes her as a leading consultant, offering unparalleled market insights and steering Huddle Investing's strategic direction. Under her leadership, Huddle Investing is redefining the investment landscape, empowering both investors and financial experts to achieve success."
+        message: "Sweety Shah, the visionary Founder and CEO of Huddle Investing, brings over a decade of experience in trading equities, forex, indices, and commodities. Her extensive expertise in price analysis distinguishes her as a leading consultant, offering unparalleled market insights and steering Huddle Investing{`'`}s strategic direction. Under her leadership, Huddle Investing is redefining the investment landscape, empowering both investors and financial experts to achieve success."
     },
     {
         name: "ARCHANA AKUL",
@@ -26,7 +26,7 @@ export default function page() {
            pfp: "/assets/image/team/Megha.jpg",
         designation: "CO-FOUNDER & HEAD OF OPERATIONS",
        
-        message: "Megha Kharbanda, Co-Founder and Head of Operations at Huddle Investing, plays a pivotal role in driving the company's success. With a wealth of experience in operational management and a keen eye for efficiency, Megha oversees the day-to-day operations, ensuring that the platform delivers a seamless experience for all users. Her strategic vision and dedication to operational excellence are integral to Huddle Investing’s growth and innovation."
+        message: "Megha Kharbanda, Co-Founder and Head of Operations at Huddle Investing, plays a pivotal role in driving the company{`'`}s success. With a wealth of experience in operational management and a keen eye for efficiency, Megha oversees the day-to-day operations, ensuring that the platform delivers a seamless experience for all users. Her strategic vision and dedication to operational excellence are integral to Huddle Investing{`'`}s growth and innovation."
     },
    
 ];
@@ -66,7 +66,7 @@ export default function page() {
       </section>
       <section className='bg-Green3 my-5 md:my-10 md:p-10 p-5'>
         <h1 className='md:text-2xl text-xl font-extrabold text-Green500 font-Poppins-Regular  text-center '>Why Trade with Us?</h1>
-        <p className='text-Green475 mt-2 md:text-center text-justify'>Choose Huddle Investing for an exceptional trading experience that puts your success first. Our platform supports all trading strategies, offers 24/5 trading across over 20,000 instruments, including forex, metals, shares, indices, and commodities, and ensures instant, nano-second execution on mobile platforms. With Huddle Investing, you're not just trading—you're part of a trusted, innovative community designed to help you thrive.</p>
+        <p className='text-Green475 mt-2 md:text-center text-justify'>Choose Huddle Investing for an exceptional trading experience that puts your success first. Our platform supports all trading strategies, offers 24/5 trading across over 20,000 instruments, including forex, metals, shares, indices, and commodities, and ensures instant, nano-second execution on mobile platforms. With Huddle Investing, you{`'`}re not just trading—you{`'`}re part of a trusted, innovative community designed to help you thrive.</p>
       </section>
 
 
