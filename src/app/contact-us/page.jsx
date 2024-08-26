@@ -4,15 +4,12 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
-
 export default function Page() {
-  const whatsappNumber = '923075011252'; // Replace with your WhatsApp number (without the '+')
+  const whatsappNumber = '+16476763524'; // Replace with your WhatsApp number (with the '+')
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
-
   const handleWhatsAppClick = () => {
     window.open(whatsappUrl, '_blank');
   };
-
   return (
     <>
       <div className='grid md:grid-cols-2 grid-cols-1 my-10 md:p-10 p-5'>
@@ -55,25 +52,19 @@ export default function Page() {
             </div>
           </div>
         </section>
-
         <section>
-
-          <p className='text-center text-neutral-400 my-5 font-Lexend-Regular'>OR</p>
-
+          <p className='text-center text-neutral-500 my-5 font-Lexend-Regular'>OR</p>
           <h1 className='md:text-4xl text-xl font-extrabold text-Green475 font-Poppins-Regular'>WhatsApp</h1>
-
-          <p className='text-Green475 font-Lexend-Regular'>Join Our WhatsApp Community</p>
-
+          <p className='text-Green475 font-Lexend-Regular'>Join us on WhatsApp </p>
           <button
             className="mt-5 relative h-[3.5rem] w-40 overflow-hidden border border-Green300 bg-Green300 text-white transition-all before:absolute before:right-0 before:top-0 before:h-[3.5rem] before:w-6 before:translate-x-[3.5rem] before:rotate-6 before:bg-white before:opacity-10 before:duration-700 font-Poppins-Regular hover:before:-translate-x-40"
             onClick={handleWhatsAppClick}
           >
             <span className='flex items-center justify-start p-2 gap-2'>
-              <BsWhatsapp className='text-3xl' />
+              <BsWhatsapp className='text-3xl  ml-2' />
               Join Now
             </span>
           </button>
-
         </section>
       </div>
     </>

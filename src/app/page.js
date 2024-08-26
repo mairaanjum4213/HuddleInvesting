@@ -14,7 +14,7 @@ export default function page() {
 <Services/>
 <BusinessModel/>
 <Plans/>
-<Testimonials/>
+{/* <Testimonials/> */}
      
     </div>
   )

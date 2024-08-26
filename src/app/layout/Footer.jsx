@@ -28,13 +28,17 @@ export default function Footer() {
               <h1 className=" font-bold  font-WorkSans-Regular text-2xl text-Green475">Quick Links</h1>
               <ol className='text-Green475'>
                 <li className="relative my-3 w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-Green475 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-NunitoSans-Regular list-none">
-                  <Link href="#">About</Link>
+                  <Link href="/about-us">About</Link>
+                </li>
+                <li 
+                
+                className="relative my-3  w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-Green475 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-NunitoSans-Regular list-none"
+                
+                >
+                  <Link href="/contact-us">Contact</Link>
                 </li>
                 <li className="relative my-3  w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-Green475 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-NunitoSans-Regular list-none">
-                  <Link href="#">Contact</Link>
-                </li>
-                <li className="relative my-3  w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-Green475 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-NunitoSans-Regular list-none">
-                  <Link href="#">Market Analysis</Link>
+                  <Link href="#">Economic Calendar</Link>
                 </li>
               </ol>
             </div>

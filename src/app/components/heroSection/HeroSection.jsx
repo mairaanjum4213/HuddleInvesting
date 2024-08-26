@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 export default function HeroSection() {
   return (
   <>
@@ -27,9 +28,11 @@ className="relative homeHero font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 t
         <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
           Revolutionizing the Investment Experience
         </p>
-        <button className="mt-8 before:ease relative h-12 w-40 overflow-hidden border border-Green300 bg-Green300 text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-Green300 hover:before:-translate-x-40">
-          Get Started
-        </button>
+        <div className='md:mt-10 mt-5'>
+                      <Link href='/contact-us' className="before:ease relative py-3  px-10 overflow-hidden border border-Green300 bg-Green300 text-white  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700  hover:before:-translate-x-40">
+                            Get Started
+                        </Link>
+                      </div>
       </div>
     </section>
   </>

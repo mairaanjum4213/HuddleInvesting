@@ -16,8 +16,9 @@ export default function RootLayout({ children }) {
 
         
       <NextTopLoader 
-      
-      
+      height={3}
+      speed={1000}
+ 
       color="#005B2F"/>
           <Navbar/>
         {children}
