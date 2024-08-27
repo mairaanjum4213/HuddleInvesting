@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
+
 export default function Page() {
   const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
@@ -69,7 +70,7 @@ export default function Page() {
   };
   return (
     <>
-     <Toaster />
+      <Toaster />
       <div className='grid md:grid-cols-2 grid-cols-1 my-10 md:p-10 p-5'>
         <section>
           <div className='flex flex-col gap-4 '>
