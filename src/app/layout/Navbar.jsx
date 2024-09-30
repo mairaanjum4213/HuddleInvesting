@@ -54,6 +54,13 @@ export default function Navbar() {
   ]
   return (
     <>
+
+
+
+
+
+
+    
       <section className='md:hidden flex flex-col justify-center bg-Green100 md:px-10 items-center px-5 '>
         <div className='flex flex-col justify-center items-center pt-3 mb-2 gap-1'>
           <Image

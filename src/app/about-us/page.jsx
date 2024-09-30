@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-export default function page() {
+export default function Page() {
   const testimonials = [
     {
       name: "SWEETY SHAH",
@@ -32,31 +32,42 @@ export default function page() {
               About Us
             </h1>
           </div>
-          <p className="text-lg sm:text-xl font-semibold text-white">
+          <p className="text-lg sm:text-xl font- text-white">
             Transform your trading with Huddle Investing. Expert insights, AI-powered strategies, and a collaborative community—all in one platform.
           </p>
           <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
-            Revolutionizing the Investment Experience
+          Simplify Your Investing Journey for Greater Gains
           </p>
         </div>
       </section>
-      <section className='grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 md:p-10 p-5'>
-        <div className='md:w-[80%]'>
+      <section className='flex md:flex-row justify-center  md:gap-10 gap-5 md:p-10 p-5'>
+        <div className='md:w-[40%] text-center'>
           <h1 className='md:text-2xl text-xl font-extrabold text-Green500 font-Poppins-Regular  '>Our Vision</h1>
-          <p className='text-Green475 mt-2 text-justify'>
+          <p className='text-Green475 mt-2 text-center '>
             Our vision is to revolutionize the investment landscape by fostering a vibrant community where trust, efficiency, and innovation converge. We strive to create a platform where financial expertise meets cutting-edge technology, driving collaborative learning and exponential growth for all users.
           </p>
         </div>
-        <div className='md:w-[80%]'>
-          <h1 className='md:text-2xl text-xl font-extrabold text-Green500 font-Poppins-Regular  '>Our Mission</h1>
-          <p className='text-Green475 mt-2 text-justify'>
+        <div className='md:w-[40%] text-center'>
+          <h1 className='md:text-2xl text-center text-xl font-extrabold text-Green500 font-Poppins-Regular  '>Our Mission</h1>
+          <p className='text-Green475 text-center mt-2 '>
             Huddle Investing is committed to transforming the way people invest by providing a user-friendly platform that simplifies and streamlines the trading process. Our mission is to empower both experts and investors with the tools they need to succeed, while continuously improving our offerings to meet the evolving needs of the financial market.
           </p>
         </div>
       </section>
       <section className='bg-Green3 my-5 md:my-10 md:p-10 p-5'>
         <h1 className='md:text-2xl text-xl font-extrabold text-Green500 font-Poppins-Regular  text-center '>Why Trade with Us?</h1>
-        <p className='text-Green475 mt-2 md:text-center text-justify'>Choose Huddle Investing for an exceptional trading experience that puts your success first. Our platform supports all trading strategies, offers 24/5 trading across over 20,000 instruments, including forex, metals, shares, indices, and commodities, and ensures instant, nano-second execution on mobile platforms. With Huddle Investing, you{`'`}re not just trading—you{`'`}re part of a trusted, innovative community designed to help you thrive.</p>
+        <p className='text-Green475 mt-2 md:text-center text-justify'>
+
+       {` At Huddle Investing, we combine expert financial guidance with cutting-edge technology to offer a
+ unique trading experience in Canada. Our subscription-based platform connects you with verified
+ financial experts, enabling seamless copy trading and community-based strategies. With a focus on
+ transparency and rigorous expert verification, we empower investors to make informed decisions.Our app
+ ensures that you stay connected with your investments at all times. Enjoy 24/7 access to live dashboards,
+ allowing you to track your portfolio performance in real-time. Receive personalized insights tailored to
+ your investment goals and participate in interactive chat rooms where you can engage with experts and
+ fellow investors. With push notifications for critical market updates, you’ll always be informed and ready
+ to act. Discover the difference with Huddle Investing—where your financial goals become our mission.`}
+        </p>
       </section>
       <section className='md:p-10 p-5 my-5  md:my-10'>
         <div className=" grid md:grid-cols-2 grid-cols-1  py-5 md:p-10  md:gap-20 gap-14">

@@ -6,18 +6,12 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
-
-  
-
-
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-
       colors: {
         primary: "#377E31",
         mist: "#647959",
@@ -32,19 +26,16 @@ module.exports = {
         lightBg: '#C4FFC3',
         lightEpsilon: '#F0FFF0',
         lightBackground: '#F5F5F5',
-        Green3:'#F4FFF4',
-        Green200:'#4EC24C',
-        Green300:'#00A961',
-        Green400:'#129F58',
-        Green450:'#0C9955',
-        Green475:'#005B2F',
-        Green500:'#004700',
-        Green600:'#002500',
-   
-        Green100:'#DCFFDC',
-
+        Green3: '#F4FFF4',
+        Green200: '#4EC24C',
+        Green300: '#00A961',
+        Green400: '#129F58',
+        Green450: '#0C9955',
+        Green475: '#005B2F',
+        Green500: '#004700',
+        Green600: '#002500',
+        Green100: '#DCFFDC',
       },
-
       fontFamily: {
         "Satoshi-Black": ["Satoshi-Black", "sans-serif"],
         "NunitoSans-Regular": ["NunitoSans-Regular", "sans-serif"],

@@ -13,16 +13,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-
-        
-      <NextTopLoader 
-      height={3}
-      speed={1000}
-      showSpinner={false}
-      color="#005B2F"/>
-          <Navbar/>
+        <NextTopLoader
+          height={3}
+          speed={1000}
+          showSpinner={false}
+          color="#005B2F" />
+        <Navbar />
         {children}
-    
         <Footer />
       </body>
     </html>
