@@ -6,16 +6,23 @@ export default function Page() {
         <>
             <section
                 className="relative homeHero2 font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
-                <div className="max-w-3xl mx-auto "
+                <div className="mx-auto "
                 >
                     <div className="flex items-center justify-center  mb-6">
                         <h1 className="text-3xl sm:text-4xl font-extrabold text-Green475 ml-3">
                             Services
                         </h1>
                     </div>
-                    <p className="text-lg sm:text-lg  text-white">
+                   
+
+                    <p className="text-sm sm:text-base  text-white">
                         {`At Huddle Investing, we offer a comprehensive range of trading services, including Forex, Metals, Indices, Shares, and Commodities. Our platform is designed to empower traders with access to over 20,000 instruments, allowing you to trade seamlessly across global markets. We enable all trading strategies and provide a robust 24/5 trading environment, ensuring you can capitalize on market opportunities at any time. With instant nano-second execution on mobile platforms, our aim is to help our traders succeed by delivering an exceptional trading experience tailored to your needs.`}
                     </p>
+
+
+                    <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
+          {`  Connecting With Canda's Most Reliable Financial Partners`}
+          </p>
                 </div>
             </section>
             <section className='bg-Green3 md:p-10 p-5' >
@@ -138,7 +145,6 @@ export default function Page() {
             </section>
             <section className='md:p-10 p-5 flex md:flex-row flex-col  gap-5 md:gap-10 md:text-justify'
             >
-
 <Image
                     className='w-[18rem] rounded  h-[14rem] place-self-center md:block hidden '
                     src='/assets/image/our-services/CryptoCFDS.png'
@@ -146,7 +152,6 @@ export default function Page() {
                     width={400}
                     height={400}
                 />
-
                 <div className=''>
                     <h1 className='md:text-4xl mb-0 text-3xl font-extrabold text-Green500 font-Poppins-Regular '>CRYPTO CFDs</h1>
                     <spam className='font-Lexend-Regular text-justify text-Green475'>
@@ -161,7 +166,6 @@ export default function Page() {
                         </Link>
                     </div>
                 </div>
-               
             </section>
         </>
     )

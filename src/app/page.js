@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import HeroSection from './components/heroSection/HeroSection.jsx'
 import Plans from './components/plans/Plans.jsx'
 import Offer from './components/offer/Offer.jsx'
-import Services from './components/servicecs/Services.jsx'
+import ServicesCard from './components/servicecs/ServicesCard.jsx'
 import BusinessModel from './components/businessModel/Model.jsx'
 import Disclaimer from './components/modals/Disclaimer.jsx'
 
@@ -23,9 +23,18 @@ export default function Page() {
           <Disclaimer />
         </>
       )}
-      <HeroSection />
+      <HeroSection /> 
+      
+      
       <Offer />
-      <Services />
+ 
+  
+    
+
+
+
+      <ServicesCard/>
+
       <BusinessModel />
       <Plans />
       {/* <Testimonials/> */}

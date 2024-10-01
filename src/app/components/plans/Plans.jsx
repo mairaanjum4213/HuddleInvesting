@@ -6,7 +6,7 @@ export default function Plans() {
   return (
     <>
 
-    <ServicesCard/>
+   
       <div className='flex flex-col items-center justify-center lg:p-10  my-10 '>
         <h1 className='md:text-4xl text-3xl mb-5 font-extrabold  font-Poppins-Regular '>Plans</h1>
         <div className="lg:max-w-7xl  mx-auto p-6">
@@ -193,6 +193,9 @@ export default function Plans() {
         </div>
       </div>
       </div>
+
+
+  x
     </>
   )
 }

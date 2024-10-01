@@ -140,7 +140,8 @@ export default function Navbar() {
             Web Development In Progress
           </span>
           <span className="text-white text-lg font-bold mr-8">
-            Web Development In Progress
+           
+           
           </span>
           <span className="text-white text-lg font-bold mr-8">
             Web Development In Progress
