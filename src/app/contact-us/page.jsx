@@ -6,6 +6,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
+import Image from 'next/image';
 
 export default function Page() {
   const [loading, setLoading] = useState(false)
@@ -23,7 +24,7 @@ export default function Page() {
       [name]: type === 'file' ? files[0] : value,
     }));
   };
-  // form submission down+
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -71,6 +72,29 @@ export default function Page() {
   return (
     <>
       <Toaster />
+      <section
+        className="relative homeHero3 font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
+        <div className="max-w-3xl mx-auto "
+        >
+
+
+<p className=" pb-2 text-2xl  uppercase font-bold text-white">
+          CARRERS
+          </p>
+
+                <p className="pb-10 font-semibold text-white">
+            Empowering Your Financial Journey: Where Expert Insights and Collaborative Innovation Converge
+          </p>
+        
+
+
+
+         
+
+
+        
+        </div>
+      </section>
       <div className='grid md:grid-cols-2 grid-cols-1 my-10 md:p-10 p-5'>
         <section>
           <div className='flex flex-col gap-4 '>

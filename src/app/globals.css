@@ -6,6 +6,13 @@
   background-size: cover;
   background-position: center;
 }
+
+.homeHero3 {
+  background-image: url("../../public/assets/image/home/Carrer.png");
+  background-size: cover;
+  background-position: center;
+}
+
 .homeHero2 {
   background-image: url("../../public/assets/image/heroSection/Hero Section2.png");
   background-size: cover;
