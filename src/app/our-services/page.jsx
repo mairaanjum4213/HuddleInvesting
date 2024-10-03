@@ -5,10 +5,10 @@ export default function Page() {
     return (
         <>
             <section
-                className="relative homeHero2 font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
+                className="relative homeHero2 font-Poppins-Regular py-16 px-4 sm:px-8 lg:px-16 text-center">
                 <div className="mx-auto "
                 >
-                    <div className="flex items-center justify-center  mb-6">
+                    <div className="flex items-center justify-center mb-6">
                         <h1 className="text-3xl sm:text-4xl font-extrabold text-Green475 ml-3">
                             Services
                         </h1>
@@ -17,12 +17,12 @@ export default function Page() {
                         {`At Huddle Investing, we offer a comprehensive range of trading services, including Forex, Metals, Indices, Shares, and Commodities. Our platform is designed to empower traders with access to over 20,000 instruments, allowing you to trade seamlessly across global markets. We enable all trading strategies and provide a robust 24/5 trading environment, ensuring you can capitalize on market opportunities at any time. With instant nano-second execution on mobile platforms, our aim is to help our traders succeed by delivering an exceptional trading experience tailored to your needs.`}
                     </p>
                     <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
-          {`  Connecting With Canada's Most Reliable Financial Partners`}
-          </p>
+                        {`  Connecting With Canada's Most Reliable Financial Partners`}
+                    </p>
                 </div>
             </section>
-            <section className='bg-Green3 md:p-10 p-5' >
-                <section className=' flex md:flex-row flex-col  gap-5 md:gap-10 '> 
+            <section className=' md:p-10 p-5' >
+                <section className=' flex md:flex-row flex-col  gap-5 md:gap-10 '>
                     <div className=''>
                         <h1 className='md:text-4xl mb-2 text-3xl font-extrabold text-Green500 font-Poppins-Regular '> Automated Copy trading</h1>
                         <spam className='font-Lexend-Regular text- text-Green475'>
@@ -124,10 +124,6 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
-
-
-                
-
                 <section className=' md:my-10 my-5 flex items-center md:flex-row flex-col  gap-5 md:gap-10 md:text-justify'>
                     <div className=''>
                         <h1 className='md:text-4xl mb-2 text-3xl font-extrabold text-Green500 font-Poppins-Regular '>Live Webinar & HI Academy</h1>
@@ -163,7 +159,7 @@ export default function Page() {
                         <h1 className='md:text-4xl mb-2 text-3xl font-extrabold text-Green500 font-Poppins-Regular '>Connect with Trusted Brokers
                         </h1>
                         <spam className='font-Lexend-Regular text-justify text-Green475'>
-                           Most Trusted brokers
+                            Most Trusted brokers
                         </spam>
                         <p className='text-Green475'>
                             {`Investors can easily collaborate with top brokers, ensuring their trades are handled by professionals who understand the markets deeply. This reduces risk and improves execution quality, enhancing overall returns.`}
@@ -176,8 +172,6 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
-
-
             </section>
         </>
     )
