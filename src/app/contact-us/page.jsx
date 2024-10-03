@@ -298,7 +298,7 @@ export default function Page() {
                         <ul className="list-disc list-inside space-y-2 text-gray-600">
                           <li>Identify and pursue new business opportunities, partnerships, and collaborations with financial institutions, advisors, and B2B clients.</li>
                           <li>Develop and execute a business development strategy to drive revenue and market expansion.</li>
-                          <li>Establish relationships with potential clients and investors, showcasing Huddle Investing's value proposition.</li>
+                          <li>{`Establish relationships with potential clients and investors, showcasing Huddle Investing's value proposition.`}</li>
                           <li>Negotiate and close deals to onboard B2B clients onto the platform.</li>
                           <li>Analyze market trends to identify growth areas and opportunities for expansion.</li>
                         </ul>
