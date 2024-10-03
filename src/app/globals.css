@@ -6,13 +6,11 @@
   background-size: cover;
   background-position: center;
 }
-
 .homeHero3 {
   background-image: url("../../public/assets/image/home/Carrer.png");
   background-size: cover;
   background-position: center;
 }
-
 .homeHero2 {
   background-image: url("../../public/assets/image/heroSection/Hero Section2.png");
   background-size: cover;
@@ -63,40 +61,60 @@
   animation: scroll 10s linear infinite;
 }
 .animation {
-  height:1.8rem;
-  overflow:hidden;
+  height: 1.8rem;
+  overflow: hidden;
 }
-.animation > div > div {
+.animation>div>div {
   /* padding: 0.05rem 0.05rem; */
-  height:2.81rem;
+  height: 2.81rem;
   margin-bottom: 2.81rem;
-  display:inline-block;
+  display: inline-block;
 }
 .animation div:first-child {
   animation: text-animation 6s infinite;
   /* padding:3px 5px 2px 5px; */
 }
 .first div {
-  background-color:#0c9955b9;
-  padding:3px 5px 2px 5px;
+  background-color: #0c9955b9;
+  padding: 3px 5px 2px 5px;
 }
 .second div {
-  background-color:#005b2fc2;
-  padding:3px 5px 2px 5px;
+  background-color: #005b2fc2;
+  padding: 3px 5px 2px 5px;
 }
 .third div {
-  background-color:#00a960d2;
-  padding:3px 5px 0px 5px;
+  background-color: #00a960d2;
+  padding: 3px 5px 0px 5px;
 }
 @keyframes text-animation {
-  0% {margin-top: 0;}
-  10% {margin-top: 0;}
-  20% {margin-top: -5.62rem;}
-  30% {margin-top: -5.62rem;}
-  40% {margin-top: -11.24rem;}
-  60% {margin-top: -11.24rem;}
-  70% {margin-top: -5.62rem;}
-  80% {margin-top: -5.62rem;}
-  90% {margin-top: 0;}
-  100% {margin-top: 0;}
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
 }

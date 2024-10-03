@@ -72,7 +72,7 @@ export default function Page() {
       <section className='md:p-10 p-5 my-5  md:my-10'>
         <div className=" grid md:grid-cols-2 grid-cols-1  py-5 md:p-10  md:gap-20 gap-14">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="bg-Green3   transform transition duration-500    justify-self-center block  rounded-lg  p-5">
+            <div key={index} className="bg-Green100    transform transition duration-500    justify-self-center block  rounded-lg  p-5">
               <div className="flex md:flex-row flex-col gap-5 md:items-center mb-3">
                 <Image
                   className='rounded-full min-w-[96px] max-w-[96px] min-h-[96px] max-h-[96px] object-cover'

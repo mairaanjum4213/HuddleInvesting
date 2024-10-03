@@ -7,7 +7,6 @@ import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 import Image from 'next/image';
-
 export default function Page() {
   const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
@@ -24,7 +23,6 @@ export default function Page() {
       [name]: type === 'file' ? files[0] : value,
     }));
   };
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -76,23 +74,11 @@ export default function Page() {
         className="relative homeHero3 font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
         <div className="max-w-3xl mx-auto "
         >
-
-
-<p className=" pb-2 text-2xl  uppercase font-bold text-white">
-          CARRERS
-          </p>
-
+<p className=" pb-2 text-2xl  uppercase font-bold  text-white">
+careers          </p>
                 <p className="pb-10 font-semibold text-white">
             Empowering Your Financial Journey: Where Expert Insights and Collaborative Innovation Converge
           </p>
-        
-
-
-
-         
-
-
-        
         </div>
       </section>
       <div className='grid md:grid-cols-2 grid-cols-1 my-10 md:p-10 p-5'>
