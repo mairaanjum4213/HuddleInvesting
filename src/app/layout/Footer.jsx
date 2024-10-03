@@ -38,7 +38,7 @@ export default function Footer() {
                   <Link href="/contact-us">Contact</Link>
                 </li>
                 <li className="relative my-3  w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-Green475 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left font-NunitoSans-Regular list-none">
-                  <Link href="#">Economic Calendar</Link>
+                  <Link href="/economic-calendar">Economic Calendar</Link>
                 </li>
               </ol>
             </div>
