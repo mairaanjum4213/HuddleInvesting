@@ -213,13 +213,15 @@ export default function Page() {
         </section>
       </div>
       <div id='carrers' className="py-5    mt-10 bg-Green3 h-fit container-fluid relative">
+      
+      <h2 className="text-xl lg:text-3xl xl:text-4xl text-gray-800 md:px-10 px-5 whitespace-nowrap tracking-widest font-Poppins-Regular font-bold">
+              Carrers
+            </h2>
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -start">
           <div className="relative flex flex-col items-center justify-center lg:flex-row md:flex-row lg:justify-center">
             <h2 className="text-xl lg:text-3xl xl:text-4xl text-Green300 text-center lg:text-center lg:mb-0 tracking-widest font-Poppins-Regular font-bold">
             </h2>
-            <h2 className="text-xl lg:text-3xl xl:text-4xl text-gray-800 text-center lg:text-center whitespace-nowrap tracking-widest font-Poppins-Regular font-bold">
-              CARRERS
-            </h2>
+           
           </div>
         </div>
         <div className="space-y-4 my-5 md:mx-10 mx-5  ">
