@@ -6,18 +6,19 @@ export default function Page() {
         <>
             <section
                 className="relative homeHero2 font-Poppins-Regular py-16 px-4 sm:px-8 lg:px-16 text-center">
-                <div className="mx-auto "
+                <div className="mx-auto relative z-10"
                 >
                     <div className="flex items-center justify-center mb-6">
                         <h1 className="text-3xl sm:text-4xl font-extrabold text-Green475 ml-3">
                             Services
                         </h1>
                     </div>
-                    <p className="text-sm sm:text-base  text-white">
-                        {`At Huddle Investing, we offer a comprehensive range of trading services, including Forex, Metals, Indices, Shares, and Commodities. Our platform is designed to empower traders with access to over 20,000 instruments, allowing you to trade seamlessly across global markets. We enable all trading strategies and provide a robust 24/5 trading environment, ensuring you can capitalize on market opportunities at any time. With instant nano-second execution on mobile platforms, our aim is to help our traders succeed by delivering an exceptional trading experience tailored to your needs.`}
+                    <p className="text-sm sm:text-base font-extrabold text-white">
+                        {`At Huddle Investing, we simplify your investment journey with expert guidance and advanced tools. Benefit from professional trade setups, automated copy trading, and regular portfolio health checks to optimize your strategy. Join a community of investors and advisors in our interactive chat rooms, and diversify your portfolio with trusted North American brokers. Elevate your investing experience with Huddle Investing, where expert support meets cutting-edge technology.`}
                     </p>
-                    <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
-                        {`  Connecting With Canada's Most Reliable Financial Partners`}
+                    <p className="text-sm sm:text-lg font-extrabold text-Green475 mt-4 font-Lexend-Regular">
+                        {`  
+Rewriting the Rules of Investing`}
                     </p>
                 </div>
             </section>

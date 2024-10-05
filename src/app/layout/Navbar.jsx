@@ -29,6 +29,10 @@ export default function Navbar() {
       Name: 'Contact',
       Link: '/contact-us'
     },
+    {
+      Name: 'Careers',
+      Link: '/careers'
+    },
   ]
   const MobileLinks = [
     {
@@ -50,6 +54,10 @@ export default function Navbar() {
     {
       Name: 'Contact',
       Link: '/contact-us'
+    },
+    {
+      Name: 'Careers',
+      Link: '/careers'
     },
   ]
   return (

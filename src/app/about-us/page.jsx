@@ -24,18 +24,18 @@ export default function Page() {
   return (
     <>
       <section
-        className="relative homeHero font-Poppins-Regular  py-16 px-4 sm:px-8 lg:px-16 text-center">
-        <div className="max-w-3xl mx-auto "
+        className="relative homeHero4 font-Poppins-Regular  py-24 px-4 sm:px-8 lg:px-16 text-center">
+        <div className="max-w-3xl mx-auto relative z-10"
         >
           <div className="flex items-center justify-center mb-6">
             <h1 className="text-3xl sm:text-4xl font-extrabold text-Green475 ml-3">
               About Us
             </h1>
           </div>
-          <p className="text-lg sm:text-xl font- text-white">
+          <p className="text-lg sm:text-xl font-semibold text-Green600">
             Transform your trading with Huddle Investing. Expert insights, AI-powered strategies, and a collaborative community—all in one platform.
           </p>
-          <p className="text-sm sm:text-base text-Green500 mt-4 font-Lexend-Regular">
+          <p className="text-sm sm:text-lg font-extrabold text-Green475 mt-4 font-Lexend-Regular">
           Simplify Your Investing Journey for Greater Gains
           </p>
         </div>

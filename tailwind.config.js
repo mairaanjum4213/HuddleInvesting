@@ -35,6 +35,14 @@ module.exports = {
         Green500: '#004700',
         Green600: '#002500',
         Green100: '#DCFFDC',
+        GreenMy: '#249B4C',
+        Gold :'#E8A438',
+        Gold2: '#F6DA4E',
+        Gold3 :'#DC9B29',
+        Gold4 :'#F4BE54',
+        Gold5: "#DD9A2C",
+        mywhite: "#FFFADA"
+
       },
       fontFamily: {
         "Satoshi-Black": ["Satoshi-Black", "sans-serif"],
